@@ -23,3 +23,72 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+*,
+*:after,
+*:befor {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.search-form {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.btn {
+  color: rgb(243, 243, 248);
+  background-color: rgb(35, 175, 194);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 85px;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin-left: 30px;
+}
+
+.gallery-image {
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.block {
+  color: rgb(1, 1, 18);
+}
+
+.thumb-block {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-top: none;
+  padding: 10px 0;
+
+}
+.loadbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  
+}
+
