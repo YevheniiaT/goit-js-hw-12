@@ -229,7 +229,7 @@ function checkEndOfCollection() {
   }
 }
 
-function appendImagesToGallery(images) {
-  const markup = createMarkup(images);
-    galleryListEl.insertAdjacentHTML('beforeend', markup);
+function appendImagesToGallery(images){
+    const markup = createMarkup(images);
+    galleryListEl.insertAdjacentHTML(`beforeend`, markup);
 }
