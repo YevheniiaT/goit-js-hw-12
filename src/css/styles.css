@@ -89,6 +89,10 @@ img {
   align-items: center;
   padding-top: 80px;
   padding-bottom: 20px;
-  
+}
+.load-more-btn {
+  color: rgb(0, 15, 15);
+  height: 35px;
+  background-color: rgb(168, 194, 185);
 }
 
